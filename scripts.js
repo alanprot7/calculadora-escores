@@ -1,6 +1,6 @@
-let pontuacao = document.getElementById('pontuacao')
-let escore = document.getElementById('escore')
-let resultado = document.getElementById('resultado')
+constgit  pontuacao = document.getElementById('pontuacao')
+constgit  escore = document.getElementById('escore')
+constgit  resultado = document.getElementById('resultado')
 
 document.addEventListener('click', (e) => {
     if(e.target.id === 'calcular'){
