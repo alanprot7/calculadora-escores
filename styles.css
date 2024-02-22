@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+.quadro {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Centraliza o quadro horizontalmente */
+}
+
+.titulo {
+    background-color: #1e3a5e;
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: bold;
+    text-align: center; /* Centraliza o texto */
+}
+
+.inputs {
+    width: 80%; /* Define a largura dos inputs como 80% do quadro */
+    margin: 20px auto; /* Centraliza os inputs horizontalmente */
+}
+
+.inputs label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.inputs input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 3px solid #1e3a5e; /* Borda azul suave */
+    border-radius: 5px; /* Cantos arredondados */
+    box-sizing: border-box;
+}
+
+#pontuacao {
+    margin-bottom: 15px;
+}
+
+.botao-calcula {
+    border: none;
+    height: 60px;
+    line-height: 30px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: #1e3a5e; /* Cor azul do título */
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.botao-limpa {
+
+    border: none;
+    height: 60px;
+    line-height: 30px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: #347C39; /* Cor verde na mesma tonalidade do azul do título */
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 15px;
+
+    
+}
+
+.botoes {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.result {
+    color: #1e3a5e;
+    font-weight: bold;
+    text-align: center; /* Centraliza o texto */
+    padding-bottom: 10px;
+}
