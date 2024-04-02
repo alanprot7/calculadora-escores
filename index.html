@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de Escores</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?2">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
 </head>
 <body>
@@ -22,9 +22,25 @@
             <button id="calcular" class="botao-calcula">Calcular</button>
             <button id="limpar" class="botao-limpa">Limpar</button>
         </div>
-        
+
+        <div class="titulo espaco azul-suave">Calcular Média</div>
+        <div class="inputs">
+            <div class="quadro-media">
+                <div id="notas" class="quadro-notas">
+                    <label for="nota">Digite a Nota 1:</label>
+                    <input type="number" id="nota1" name="nota1">
+                </div>
+                <button id="plus" class="botao-limpa botao-pequeno">+</button>
+            </div>
+        </div>
+        <div class="botoes">
+            <button id="calcular-media" class="botao-calcula azul-suave">Calcular</button>
+            <button id="zerar" class="botao-limpa botao-zerar">Zerar</button>
+        </div>
+        <div class="result" id="resultadoMedia" >
+        </div>
     </div>
 
-    <script src="scripts_v1.js"></script>
+    <script type="text/javascript" src="scripts_v1.js?2"></script>
 </body>
 </html>

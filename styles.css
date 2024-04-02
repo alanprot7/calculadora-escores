@@ -90,3 +90,35 @@ body {
     text-align: center; /* Centraliza o texto */
     padding-bottom: 10px;
 }
+
+.espaco {
+    margin-top: 30px;
+}
+
+.azul-suave {
+    background-color: #056ff7;
+}
+
+.botao-central {
+    margin: auto;
+}
+
+.botao-pequeno {
+    line-height: 10px;
+    font-size: 2em;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.quadro-media {
+    display: flex;
+    align-items: center;
+}
+
+.quadro-notas input{
+    margin-bottom: 5px;
+}
+
+.botao-zerar {
+    background-color: #db5959;
+}
